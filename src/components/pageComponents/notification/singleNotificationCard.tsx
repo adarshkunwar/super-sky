@@ -28,19 +28,20 @@ const NotificationCard: React.FC<TSingleNotifcation> = ({
   link,
 }) => {
   return (
-    <div className="relative flex items-start p-4 bg-white shadow-md rounded-lg border border-gray-100 max-w-sm">
-      <div className="flex items-start">
-        {getIconForType(type)}
-        <div className="flex-1">
-          <div className="flex justify-between items-center mb-1">
-            <h3 className="text-sm font-semibold text-gray-800">{title}</h3>
-            <Link to={link}>hi</Link>
+    <Link to={link}>
+      <div className="relative flex items-start p-4 bg-white shadow-md rounded-lg border border-gray-100 max-w-sm">
+        <div className="flex items-start">
+          {getIconForType(type)}
+          <div className="flex-1">
+            <div className="flex justify-between items-center mb-1">
+              <h3 className="text-sm font-semibold text-gray-800">{title}</h3>
+            </div>
+            <p className="text-xs text-gray-600 mb-2">{message}</p>
+            <div className="text-xs text-gray-500">{timestamp}</div>
           </div>
-          <p className="text-xs text-gray-600 mb-2">{message}</p>
-          <div className="text-xs text-gray-500">{timestamp}</div>
         </div>
       </div>
-    </div>
+    </Link>
   );
 };
 
