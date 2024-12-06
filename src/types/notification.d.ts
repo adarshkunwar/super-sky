@@ -5,5 +5,5 @@ export type TSingleNotifcation = {
   title: string;
   message: string;
   timestamp: string;
-  onClose: () => void;
+  link: string;
 };
