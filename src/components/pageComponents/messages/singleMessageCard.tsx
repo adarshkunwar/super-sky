@@ -47,7 +47,7 @@ const SingleMessageCard = ({
       {/* Message Content */}
       <div className="flex-grow">
         <div className="flex justify-between items-center mb-1">
-          <h3 className="font-semibold text-gray-800">{sender}</h3>
+          <h3 className="ont-semibold text-gray-800">{sender}</h3>
           <div className="flex items-center text-xs text-gray-500">
             <Clock size={12} className="mr-1" />
             {timestamp}
