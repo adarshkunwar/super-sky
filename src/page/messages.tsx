@@ -1,5 +1,11 @@
+import MessageCollection from "../components/pageComponents/messageContainer";
+
 const Messages = () => {
-  return <div>Messages</div>;
+  return (
+    <div>
+      <MessageCollection />
+    </div>
+  );
 };
 
 export default Messages;
