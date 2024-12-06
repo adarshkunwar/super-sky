@@ -1,4 +1,4 @@
-import useMessage from "../../hooks/useMessage";
+import useMessage from "../../../hooks/useMessage";
 import SingleMessageCard from "./singleMessageCard";
 
 const MessageCollection = () => {

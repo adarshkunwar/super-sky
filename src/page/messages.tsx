@@ -1,4 +1,4 @@
-import MessageCollection from "../components/pageComponents/messageContainer";
+import MessageCollection from "../components/pageComponents/messages/messageContainer";
 
 const Messages = () => {
   return (

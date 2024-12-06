@@ -1,5 +1,5 @@
 import { User, Clock } from "lucide-react";
-import { TSingleMessage } from "../../types/message";
+import { TSingleMessage } from "../../../types/message";
 
 const SingleMessageCard = ({
   sender,
