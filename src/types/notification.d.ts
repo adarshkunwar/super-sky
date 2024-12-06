@@ -1,4 +1,4 @@
-type TNotificationType = "like" | "comment" | "follow" | "repost";
+export type TNotificationType = "like" | "comment" | "follow" | "repost";
 
 export type TSingleNotifcation = {
   type: TNotificationType;
